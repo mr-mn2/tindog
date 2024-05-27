@@ -1,0 +1,182 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+}
+p {
+    color: #8f8f8f;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 900 ;
+}
+.header-text{
+    font-size: 3.3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "ubuntu";
+}
+
+.header-part {
+    padding: 10% 5% 0 0;
+}
+
+.header-image {
+    width: 20rem;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
+}
+
+#features {
+    position: relative;
+
+}
+
+.feature-box {
+    padding: 4%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 900 ;
+}
+
+.icon {
+    font-size: 50px;
+    padding-bottom: 5%;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900 ;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+#pricing {
+    padding: 8%;
+}
+.price-heading{
+    font-weight: 900 ;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+.btn-container {
+    margin-top: 8%;
+}
+
+
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .header-image {
+        transform: rotate(0);
+        position: static;
+        padding-top: 10%;
+    }
+
+    #features {
+        position: static;
+    }
+
+    .header-part {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #testimonials h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+}
